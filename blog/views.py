@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from .models import Post
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from .forms import EmailPostForm
+from django.core.mail import send_mail
 
 # Create your views here.
 
@@ -38,13 +39,21 @@ def postDetails(request, year, month, day, post):
     
 def sharePost(request, post_id):
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
+    sent = False # Add a flag to track whether the email has been sent
+    
     if request.method == 'POST':
         form = EmailPostForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
+            post_url = request.build_absolute_uri(post.get_absolute_url())
+            subject = f"{cd['name']} ({cd['email']}) recommends you read {post.title}"
+            message = f"Read {post.title} at {post_url}\n\n{cd['name']}\'s comments: {cd['comments']}"
+            send_mail(subject, message, 'henryukomah@gmail.com', [cd['to']])
+            sent = True  # Set the flag to True when the email is sent
     else:
         form = EmailPostForm()
     return render(request,
                   'blog/post/sharePost.html',
                   {'post': post,
-                   'form': form})
+                   'form': form,
+                   'sent': sent})
