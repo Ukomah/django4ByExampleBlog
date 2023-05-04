@@ -17,8 +17,14 @@
         <P class="date">
             Published on {{ post.publish }} by {{ post.author }}
         </p>
-        
-            {{ post.body | truncatewords_html:30 | safe | linebreaks }} 
+            
+        {% if post.image %}
+            <img class="img-fluid img-thumbnail"  src="{{ post.image.url }}" alt="{{ post.title }}">
+        {% endif %}
+        <p>
+            {{ post.body | truncatewords_html:30 | safe | linebreaks }}
+            <a href="{{ post.get_absolute_url }}">Read more</a>
+        </P>
 
     {% endfor %}
      

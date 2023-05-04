@@ -7,7 +7,9 @@
     <h1> {{ post.title }} </h1>
 
     <P class="date">Published on {{ post.publish }} by {{ post.author }}</p>
-        
+    {% if post.image %}
+        <img class="img-fluid img-thumbnail"  src="{{ post.image.url }}" alt="{{ post.title }}">
+    {% endif %}
     {{ post.body | safe | linebreaks }} 
 
     <p>
@@ -25,10 +27,10 @@
     
     {% for comment in comments %}
         <div class="comment">
-            <p>
+            <p class="info">
                 {{ comment.name }} ~  {{ comment.created}}
             </p>
-
+            
             {{ comment.body | linebreaks }}
         </div>
     {% empty %}
