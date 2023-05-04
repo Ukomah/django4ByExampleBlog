@@ -5,7 +5,21 @@
 
 
 
-{% block blockname %}
+{% block content %}
     
-{% endblock blockname %}
+    {% if sent  %}
+        <h1> E-mail successefully sent</h1>
+        <p>
+            "{{ post.title}}" was successfully sent to {{ form.cleaned_data.to}}.
+        </p>
+    {% else %}
+        <h2> Share "{{ post.title }}" by e-mial</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Send email">
+        </form>
+    {% endif %}
+        
+{% endblock content %}
     
