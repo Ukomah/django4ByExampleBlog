@@ -6,13 +6,30 @@
 
 {% block content %}
     <h1> My Blog</h1>
+
     
+    {% if tag %}
+        <h2> Posts tagged with "{{ tag.name }}" </h2>
+    {% endif %}
     {% for post in posts  %}
         <h3> 
             <a href="{{ post.get_absolute_url }}">
                 {{ post.title }}
             </a>
         </h3>
+
+        <p class="tags">
+            Tags: 
+            
+            {% for tag in post.tags.all %}
+                <a href="{% url 'blog:postList_by_tag' tag.slug %}">{{ tag.name }}</a>
+
+                {% if not loop.last %}, {% endif %}
+                
+            {% endfor %}
+        </p>
+
+
 
         <P class="date">
             Published on {{ post.publish }} by {{ post.author }}

@@ -4,11 +4,18 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from .forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
+from taggit.models import Tag
+from django.db.models import Count
 
 # Create your views here.
 
-def postList(request):
+def postList(request, tag_slug=None):
     postList = Post.published.all()
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        postList = postList.filter(tags__in=[tag])       
+        
     paginator = Paginator(postList, 2)
     page_number = request.GET.get('page', 1)
     
@@ -22,7 +29,8 @@ def postList(request):
         posts = paginator.page(paginator.num_pages)
     return render(request,
                   'blog/post/postList.html',
-                  {'posts': posts})
+                  {'posts': posts,
+                  'tag':tag})
     
     
 def postDetails(request, year, month, day, post):
@@ -32,14 +40,19 @@ def postDetails(request, year, month, day, post):
                              publish__year=year,
                              publish__month=month,
                              publish__day=day)
-    comments = Comment.objects.filter(active=True)
+    comments = Comment.objects.filter(post=post, active=True)
     form = CommentForm()
+    
+    post_tags_ids = post.tags.values_list('id', flat=True)
+    similar_posts = Post.published.filter(tags__in=post_tags_ids).exclude(id=post.id)
+    similar_posts = similar_posts.annotate(same_tags=Count('tags')).order_by('-same_tags', '-publish')
     
     return render(request,
                   'blog/post/postDetails.html',
                   {'post': post,
                    'comments': comments,
-                   'form': form})
+                   'form': form,
+                   'similar_posts': similar_posts})
     
     
     

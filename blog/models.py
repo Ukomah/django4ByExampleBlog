@@ -3,6 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from ckeditor.fields import RichTextField
 from django.urls import reverse
+from taggit.managers import TaggableManager
 # Create your models here.
 
 class PublishedManager(models.Manager):
@@ -29,6 +30,7 @@ class Post(models.Model):
                                      default=Status.DRAFT)
     objects = models.Manager()          # the default manager
     published = PublishedManager()      # my defined manager
+    tags = TaggableManager(blank=True)
     
     
     class Meta:
@@ -45,6 +47,7 @@ class Post(models.Model):
                                               self.publish.month,
                                               self.publish.day,
                                               self.slug])
+    
 
     
 class Comment(models.Model):
