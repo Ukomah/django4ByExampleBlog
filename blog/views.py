@@ -6,7 +6,8 @@ from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
 from django.db.models import Count
-from django.contrib.postgres.search import SearchVector
+from django.contrib.postgres.search import TrigramSimilarity
+from django.db.models import Q
 
 # Create your views here.
 
@@ -100,18 +101,26 @@ def postSearch(request):
     form = SearchForm()
     query = None
     results = []
-    
+
     if 'query' in request.GET:
         form = SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
-            results = Post.published.annotate(search_vector=SearchVector('title', 'body', 'tags')).filter(search=query)
             
+            # Update this part to search both title and body fields
+            title_similarity = TrigramSimilarity('title', query)
+            body_similarity = TrigramSimilarity('body', query)
+            
+            results = Post.published.annotate(
+                similarity = title_similarity + body_similarity,
+            ).filter(
+                Q(similarity__gt=0.3) | Q(title__icontains=query) | Q(body__icontains=query)
+            ).order_by('-similarity')
+
     return render(request,
                   'blog/post/postSearch.html',
                   {'form': form,
-                  'query':query,
+                  'query': query,
                   'results': results
                   })
-            
         
