@@ -1,0 +1,1171 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-05-01T20:39:11.741Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Born 2 Win",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-05-01T20:44:19.288Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Born 2 Win",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-05-01T20:50:40.592Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Born 2 Win",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-05-01T21:18:16.840Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Born 2 Win",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-05-01T21:21:32.746Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Born 2 Win",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-05-01T21:23:49.981Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Better Daily",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-05-02T21:14:40.702Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Better Daily",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-05-02T21:15:31.973Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Born 2 Win",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-05-02T22:47:54.349Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Born 2 Win",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-05-02T23:27:05.742Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Embracing the Journey to Success: The Art of Winning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-05-02T23:33:58.742Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "The Power of Achievement: Unlocking Personal and Professional Growth",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-05-02T23:34:19.194Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "The Power of Achievement: Unlocking Personal and Professional Growth",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-05-04T22:22:18.410Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Coment by mike on The Power of Achievement: Unlocking Personal and Professional Growth",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-05-04T22:22:32.395Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Coment by mike on The Power of Achievement: Unlocking Personal and Professional Growth",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-05-04T22:32:41.377Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-05-04T22:33:05.688Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-05-04T22:43:55.280Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-05-04T22:44:11.159Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-05-04T22:44:27.338Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-05-04T22:53:02.746Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-05-04T22:53:12.666Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-05-04T22:55:29.142Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-05-04T23:24:35.980Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-05-04T23:24:56.274Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-05-04T23:25:57.773Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-05-04T23:26:14.346Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-05-04T23:28:43.348Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-05-04T23:29:00.071Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-05-04T23:29:13.264Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Commitment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-05-06T00:31:28.080Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Born 2 Win",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-05-06T00:32:31.554Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Embracing the Journey to Success: The Art of Winning",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-05-07T23:50:23.500Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 8,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 8,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 8,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 8,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 9,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 9,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 9,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 9,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 10,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 10,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 10,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 10,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 11,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 11,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 11,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 11,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 12,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 12,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 12,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 12,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$GIiRTzltRscgGkHvZFuvxn$4js5mIjdD4kpaX5fL6vVWc1X1iED15sjW3HCgP3VF3c=",
+    "last_login": "2023-05-02T22:47:39.022Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "EstherOji@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-05-01T20:29:34.134Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blogapp",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0gsllzkdayam2p9ic8gezxwvksybmkeo",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2pBSIIBL956B8P0gVQNJaVeNdzckXej2zcw7REz7VuLeeY0LiatQ4vK7QcIX1wHomeqjSWx1WxeQQ5En7fLeiN-30_07KKmXUWdQYFIKJiuYmREdeLTaW4dsPUyYMzI7sjQrIh8yB7KTD0br4LIVny8rGjlA:1ptymZ:6QOc4ddSVZi9t_3T428U5rwDznTbM_cgbNb4pe-_bpg",
+    "expire_date": "2023-05-16T22:47:39.037Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0p40uy9eli9tnc8ujn59995038zo8rfy",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYBe_C2pBSIIBL956B8P0gVQNJaVeNdzckXej2zcw7REz7VuLeeY0LiatQ4vK7QcIX1wHomeqjSWx1WxeQQ5En7fLeiN-30_07KKmXUWdQYFIKJiuYmREdeLTaW4dsPUyYMzI7sjQrIh8yB7KTD0br4LIVny8rGjlA:1ptaCU:4YhRZ_fALO26D4aunS88yT1HsFjVCaOQTiFgxzqeEL4",
+    "expire_date": "2023-05-15T20:32:46.306Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Better Daily",
+    "slug": "better-daily",
+    "author": 1,
+    "image": "",
+    "body": "<p style=\"margin-left:0; margin-right:0\">We all want to live a better daily life, but sometimes it can be difficult to know how to make positive changes. However, with a few simple adjustments, we can create a better daily routine and improve our overall well-being.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">One way to create a better daily routine is to start each day with a healthy breakfast. Eating a nutritious breakfast can help boost energy levels, improve focus, and set the tone for a productive day. Incorporating healthy foods such as whole grains, protein, and fruits and vegetables can help provide the nutrients and energy needed to tackle the day ahead.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Another way to improve your daily routine is to prioritize physical activity. Whether it&#39;s going for a morning run, taking a yoga class, or going for a walk during your lunch break, regular exercise can help improve mood, reduce stress, and increase overall health and well-being. Find a form of exercise that you enjoy and make it a regular part of your daily routine.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">In addition to physical health, mental health is also important for a better daily routine. Practicing mindfulness and self-care can help reduce stress and anxiety, and improve overall mental health. This can include activities such as meditation, journaling, or taking time to do something you enjoy.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Finally, creating a better daily routine can also involve making small changes to your daily habits. This can include things like getting enough sleep, staying hydrated, and taking breaks throughout the day to stretch or move around. By making small, sustainable changes to your daily routine, you can create a healthier and more fulfilling daily life.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">In conclusion, creating a better daily routine can have a significant impact on our overall well-being. By prioritizing healthy habits such as exercise, healthy eating, and self-care, we can improve our physical and mental health and enjoy a more fulfilling daily life. Remember, it&#39;s the small changes we make every day that can lead to big improvements in the long run.</p>",
+    "publish": "2023-05-02T21:13:40Z",
+    "created": "2023-05-02T21:14:40.697Z",
+    "updated": "2023-05-02T21:14:40.697Z",
+    "status": "PD"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Born 2 Win",
+    "slug": "born-2-win",
+    "author": 1,
+    "image": "",
+    "body": "<p style=\"margin-left:0; margin-right:0\">We are all born to win. From the moment we take our first breath, we are equipped with the potential to achieve great things and live a fulfilling life. Each and every one of us has unique talents, strengths, and abilities that we can use to create the life we desire. However, many of us struggle to realize our full potential and live up to our innate ability to win.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">To truly live up to our potential, we must adopt a mindset that supports and empowers us to achieve our goals. We must believe in ourselves and our abilities, and be willing to take risks and push ourselves outside of our comfort zones. We must be resilient in the face of challenges and setbacks, and learn from our mistakes rather than being discouraged by them.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">One of the keys to winning in life is to set clear goals and work towards them with intention and determination. We must identify what we truly want in life and take the necessary steps to make it happen. This requires discipline, focus, and a willingness to put in the hard work and effort required to achieve our goals.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">At the same time, we must also cultivate a positive attitude and outlook on life. We must focus on our strengths and successes, rather than dwelling on our weaknesses and failures. We must surround ourselves with positive influences and people who support and encourage us to be our best selves.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Ultimately, to be born to win means to embrace our innate potential and strive to live a life that is fulfilling, meaningful, and impactful. We must be willing to take risks, learn from our mistakes, and persevere in the face of adversity. With a winning mindset and a commitment to our goals, we can overcome any obstacle and achieve the success and fulfillment that we deserve. So let us all embrace our inner winners, and go forth with confidence, courage, and determination to achieve our dreams and create the life we desire.</p>",
+    "publish": "2023-05-02T21:15:06Z",
+    "created": "2023-05-06T00:31:28.050Z",
+    "updated": "2023-05-06T00:31:28.050Z",
+    "status": "PD"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Embracing the Journey to Success: The Art of Winning",
+    "slug": "embracing-the-journey-to-success-the-art-of-winning",
+    "author": 1,
+    "image": "",
+    "body": "<p style=\"margin-left:0; margin-right:0\"><strong>Introduction:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Winning is an aspiration that drives us to excel in various aspects of our lives, be it personal, professional, or academic. The journey to success can be challenging and filled with obstacles. However, embracing the process and developing a winning mindset can help us overcome these challenges and achieve our goals. In this article, we will explore the art of winning, including the importance of goal-setting, maintaining a positive attitude, learning from failure, and the value of perseverance.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Setting Goals and Creating a Roadmap:</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">The first step towards winning is setting specific, measurable, achievable, relevant, and time-bound (SMART) goals. Identifying clear objectives allows us to create a roadmap towards success and track our progress along the way. Breaking down our larger goals into smaller, manageable tasks helps maintain focus and motivation, while celebrating small victories can boost self-confidence and encourage us to push forward.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Developing a Positive Attitude:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">A winning mindset begins with cultivating a positive attitude. By maintaining a solution-oriented approach and focusing on opportunities rather than obstacles, we can tackle challenges more effectively. This positive outlook helps us develop resilience and adapt to change, enabling us to grow and learn from our experiences.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Learning from Failure:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">A crucial aspect of the art of winning is recognizing that failure is an integral part of the journey. Embracing failure as a learning opportunity allows us to identify areas for improvement and refine our strategies. By analyzing our setbacks and applying the lessons learned, we can strengthen our approach and enhance our chances of success.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Perseverance and Consistency:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">The path to winning is often paved with setbacks and obstacles. To overcome these hurdles, perseverance and consistency are essential. Staying committed to our goals and maintaining a disciplined work ethic enables us to navigate challenges and make progress towards our objectives. Recognizing that success often comes through sustained effort, rather than overnight victories, can help us stay motivated and focused on our long-term aspirations.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Collaboration and Support:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Winning is not solely an individual pursuit. Building a strong support network of friends, family, mentors, and colleagues can provide valuable guidance, encouragement, and resources. Collaboration and teamwork can help us harness the collective skills and knowledge of those around us, enhancing our ability to achieve our goals.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Conclusion:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">The art of winning is a multifaceted process that requires setting clear goals, maintaining a positive attitude, learning from failure, and demonstrating perseverance. By embracing the journey and developing a winning mindset, we can overcome challenges and achieve success. In doing so, we not only grow as individuals but also contribute to the betterment of our communities and the world around us.</p>",
+    "publish": "2023-05-02T23:25:11Z",
+    "created": "2023-05-06T00:32:31.538Z",
+    "updated": "2023-05-06T00:32:31.538Z",
+    "status": "PD"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "The Power of Achievement: Unlocking Personal and Professional Growth",
+    "slug": "the-power-of-achievement-unlocking-personal-and-professional-growth",
+    "author": 1,
+    "image": "",
+    "body": "<p style=\"margin-left:0; margin-right:0\">Achievement is the act of accomplishing a goal or reaching a significant milestone, be it in our personal or professional lives. It is the driving force that propels us towards growth and development, helping us unlock our full potential. This article will discuss the importance of setting goals, embracing challenges, cultivating a growth mindset, and celebrating achievements, ultimately leading to a fulfilling and successful life.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>The Importance of Goal Setting:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Setting clear, achievable goals is the foundation of accomplishment. Goals provide direction, motivation, and a sense of purpose, enabling us to make progress in our lives. Creating SMART (Specific, Measurable, Achievable, Relevant, and Time-bound) goals allows us to effectively plan our journey towards achievement and track our progress. Breaking down larger objectives into smaller tasks keeps us focused and engaged, while celebrating milestones fuels our motivation to continue pursuing our aspirations.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Embracing Challenges:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">The pursuit of achievement often presents challenges and obstacles, which can test our resilience and determination. Embracing these challenges as opportunities for growth allows us to develop problem-solving skills, adaptability, and perseverance. Facing adversity with a positive attitude helps us overcome hurdles and learn valuable lessons that contribute to our overall growth and development.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Cultivating a Growth Mindset:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">A growth mindset is essential for unlocking achievement. This mindset involves embracing the belief that our abilities and intelligence can be developed through dedication, effort, and learning. By cultivating a growth mindset, we become more open to feedback, learning from failure, and taking on new challenges. This perspective helps us develop resilience and determination, ultimately contributing to our success and achievements.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Celebrating Achievements:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Recognizing and celebrating our achievements, both big and small, is an essential component of personal and professional growth. Acknowledging our accomplishments reinforces our belief in our abilities and boosts self-confidence. Sharing our successes with others can also create a positive feedback loop, inspiring us and those around us to continue striving for greater achievements.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>The Ripple Effect of Achievement:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Our achievements not only contribute to our personal and professional growth but can also have a positive impact on the lives of those around us. Success breeds success, and our accomplishments can inspire and motivate others to pursue their goals. In turn, this collective drive for achievement can foster a supportive, growth-oriented community that thrives on progress and innovation.</p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\"><strong>Conclusion:</strong></p>\r\n\r\n<p style=\"margin-left:0; margin-right:0\">Achievement is a powerful catalyst for personal and professional growth. By setting clear goals, embracing challenges, cultivating a growth mindset, and celebrating our accomplishments, we can unlock our full potential and enjoy a more fulfilling life. The power of achievement extends beyond individual success, inspiring and motivating others to strive for their goals and fostering a culture of growth and progress.</p>",
+    "publish": "2023-05-02T23:32:16Z",
+    "created": "2023-05-02T23:34:19.189Z",
+    "updated": "2023-05-02T23:34:19.189Z",
+    "status": "PD"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Commitment",
+    "slug": "commitment",
+    "author": 1,
+    "image": "images/px_I1mYMXQ.jpg",
+    "body": "<p><strong>The Key to Success and Fulfillment</strong></p>\r\n\r\n<p>Commitment is a powerful force that drives individuals, teams, and organizations towards success and fulfillment. It is the unwavering dedication to a goal, idea, or relationship that enables individuals to overcome obstacles, persevere through challenges, and ultimately achieve their desired outcomes. In today&#39;s fast-paced world, commitment is more important than ever, as it enables us to stay focused and resilient in the face of adversity.</p>\r\n\r\n<p><strong>The Importance of Commitment</strong></p>\r\n\r\n<p>Commitment plays a critical role in both personal and professional endeavors. When we are committed to a goal or relationship, we are more likely to take consistent action and invest time and energy into making it a reality. This dedication not only increases our chances of success but also brings a sense of purpose and fulfillment to our lives.</p>\r\n\r\n<p>In the workplace, commitment is essential for teams and organizations to achieve their objectives. When employees are committed to their work, they are more likely to be engaged, motivated, and productive. This, in turn, leads to better results and a more positive work environment.</p>\r\n\r\n<p><strong>Developing Commitment</strong></p>\r\n\r\n<p>Developing a strong sense of commitment begins with identifying what is truly important to you. By understanding your values, passions, and goals, you can focus your energy on the things that matter most. Here are some strategies to help you build and maintain commitment:</p>\r\n\r\n<p>1. Set clear goals: Establishing specific, measurable, achievable, relevant, and time-bound (SMART) goals can help you stay focused on your objectives and measure your progress along the way.</p>\r\n\r\n<p>2. Create a plan: Develop a roadmap that outlines the steps required to achieve your goals. This plan will serve as a guide and help you stay on track.</p>\r\n\r\n<p>3. Cultivate discipline: Success often requires consistent effort and the ability to resist distractions and temptations. By practicing self-discipline, you can maintain your commitment even when faced with challenges or setbacks.</p>\r\n\r\n<p>4. Surround yourself with support: Engaging with individuals who share your goals and values can provide encouragement and motivation. Seek out mentors, friends, and colleagues who can offer guidance, advice, and support along your journey.</p>\r\n\r\n<p>5. Embrace setbacks as learning opportunities: Failure is an inevitable part of life, but it can also be a valuable learning experience. When faced with setbacks, take the time to reflect on what went wrong and how you can improve in the future.</p>\r\n\r\n<p>6. Celebrate progress: Recognizing and celebrating your achievements can help maintain motivation and reinforce your commitment. Acknowledge your successes, both large and small, and use them as fuel to keep moving forward.</p>\r\n\r\n<p>In conclusion, commitment is a critical component of success and fulfillment in all aspects of life. By identifying your values and goals, developing a plan, and cultivating discipline and support, you can harness the power of commitment to achieve your dreams and lead a more satisfying life.</p>",
+    "publish": "2023-05-04T22:29:53Z",
+    "created": "2023-05-04T23:29:13.257Z",
+    "updated": "2023-05-04T23:29:13.257Z",
+    "status": "PD"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "name": "mike",
+    "email": "mike@gmail.com",
+    "body": "nice",
+    "created": "2023-05-04T22:12:47.352Z",
+    "updated": "2023-05-04T22:12:47.352Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 4,
+    "name": "Goddy",
+    "email": "Goddy@gmail.com",
+    "body": "Nice3",
+    "created": "2023-05-04T22:16:28.707Z",
+    "updated": "2023-05-04T22:16:28.707Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 5,
+    "name": "Andrew",
+    "email": "An@gmail.com",
+    "body": "Nice4",
+    "created": "2023-05-05T23:36:13.332Z",
+    "updated": "2023-05-05T23:36:13.332Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 8,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 8,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 8,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 8,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 3,
+    "content_type": 8,
+    "object_id": 3
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]

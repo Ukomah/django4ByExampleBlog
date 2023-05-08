@@ -34,6 +34,9 @@
             I've written {% totalPosts %} posts so far.
 
         </p>
+        <p>
+            <a href="{% url 'blog:postFeed' %}" class="btn btn-primary">Subscribe to my RSS feed</a>
+        </p>
 
         <h3> Latest Posts</h3>
         {% showLatestPosts 3 %}
