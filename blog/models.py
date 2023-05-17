@@ -47,7 +47,14 @@ class Post(models.Model):
                                               self.publish.month,
                                               self.publish.day,
                                               self.slug])
-    
+
+class PostImage(models.Model):
+    post = models.ForeignKey(Post, default=None, on_delete=models.CASCADE)
+    image = models.ImageField(upload_to='images/')
+
+    def __str__(self):
+        return self.post.title
+
 
     
 class Comment(models.Model):
