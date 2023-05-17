@@ -1,25 +1,28 @@
+
 import factory
 from django.contrib.auth.models import User
-from blog.models import Post
+from blog.models import Post, Comment
 
 class UserFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = User
-        
-    password = 'test'
-    username  = 'test'
-    email = 'test'
-    is_superuser = True
-    is_staff = True
-    
 
+    username = factory.Sequence(lambda n: f"user{n}")
+    email = factory.Sequence(lambda n: f"user{n}@test.com")
 
 class PostFactory(factory.django.DjangoModelFactory):
     class Meta:
         model = Post
-        
-    title = 'x'
-    slug = 'x'
+
+    title = factory.Sequence(lambda n: f"Post Title {n}")
+    slug = factory.Sequence(lambda n: f"post-title-{n}")
     author = factory.SubFactory(UserFactory)
-    image = 'x'
+    body = factory.Faker('paragraph')
     
+
+class CommentFactory(factory.django.DjangoModelFactory):
+    class Meta:
+        model = Comment
+
+    body = factory.Faker('sentence')
+    post = factory.SubFactory(PostFactory)
