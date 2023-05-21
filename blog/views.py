@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Post, Comment
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from .forms import EmailPostForm, CommentForm, SearchForm
@@ -8,6 +8,9 @@ from taggit.models import Tag
 from django.db.models import Count
 from django.contrib.postgres.search import TrigramSimilarity
 from django.db.models import Q
+from taggit.models import Tag
+
+
 
 # Create your views here.
 
@@ -18,7 +21,7 @@ def postList(request, tag_slug=None):
         tag = get_object_or_404(Tag, slug=tag_slug)
         postList = postList.filter(tags__in=[tag])       
         
-    paginator = Paginator(postList, 2)
+    paginator = Paginator(postList, 4)
     page_number = request.GET.get('page', 1)
     
     try:
@@ -50,13 +53,13 @@ def postDetails(request, year, month, day, post):
     similar_posts = similar_posts.annotate(same_tags=Count('tags')).order_by('-same_tags', '-publish')
     
     return render(request,
-                  'blog/post/postDetails.html',
-                  {'post': post,
-                   'comments': comments,
-                   'form': form,
-                   'similar_posts': similar_posts})
-    
-    
+                    'blog/post/postDetails.html',
+                    {'post': post,
+                    'comments': comments,
+                    'form': form,
+                    'similar_posts': similar_posts})
+        
+
     
 def sharePost(request, post_id):
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
@@ -84,13 +87,15 @@ def sharePost(request, post_id):
 @require_POST
 def postComment(request, post_id):
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
-    comment = None
     form = CommentForm(data=request.POST)
+    comment = None
     if form.is_valid():
         comment = form.save(commit=False)
         comment.post = post
         comment.save()
-    return render(request,
+        return redirect(post.get_absolute_url())  # Redirect to the post
+    else:
+        return render(request,
                       'blog/post/postComment.html',
                       {'post': post,
                        'comment': comment,
@@ -124,3 +129,8 @@ def postSearch(request):
                   'results': results
                   })
         
+        
+
+def tagView(request):
+    all_tags = Tag.objects.all()  # This fetches all tags used across all posts.
+    return render(request, 'post.html', {'all_tags': all_tags})

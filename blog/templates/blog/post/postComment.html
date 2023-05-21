@@ -5,15 +5,22 @@
 
 
 {% block content %}
-    
-    {% if comment %}
+
+
+<div class="row">
+    <div class="col-md-8">
+        {% if comment %}
         <h2> Your comment has been added. </h2>
         <p> 
             <a href="{{ post.get_absolute_url }}">Back to the post </a>
         </p>
-    {% else %}
-        {% include "blog/post/includes/postCommentForm.html" %}
-    {% endif %} 
+        {% else %}
+            {% include "blog/post/includes/postCommentForm.html" %}
+        {% endif %} 
+    </div>
+</div>
+    
+ 
 {% endblock content %}
 
 

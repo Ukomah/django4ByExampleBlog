@@ -4,30 +4,41 @@
 
 
 {% block content %}
-    
-    {% if query %}
-        <h1> Posts containing '{{ query }}' </h1>
-        <h3>
-            {% with results.count as totalResult  %}
-                Found {{ totalResult }} result{{totalResult|pluralize}}
-            {% endwith %}
-        </h3>
-        {% for post in results %}
-            <h4>
-                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
-            </h4>
-            {{ post.body|truncatewords_html:12 | safe }}
-        {% empty %}
-            <p>There are no results for your query.</p>
-        {% endfor %}
+    <!-- Above Sidebar Section-->
+  
+                    {% if query %}
+                    
+                        <h1 class="greennature-widget-title my-5 ">
+                            {% with results.count as totalResult  %}
+                                Found {{ totalResult }}  Post{{totalResult|pluralize}} containing '{{ query }}' 
+                            {% endwith %}
+                        </h1>
 
-        <p><a href="{% url 'blog:postSearch'%}">Search again</a></p>
-    {% else %}
-        <h1>Search for posts</h1>
-        <form method="get">
-            {{ form.as_p }}
-            <input type="submit" value="Search" class="btn btn-primary">
-        </form>         
-    {% endif %}    
+                
+
+                    {% for post in results %}
+                        <h5>
+                            <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+                        </h5>
+                        {{ post.body|truncatewords_html:12 | safe }}
+                    {% empty %}
+                        <p>There are no results for your query.</p>
+                    {% endfor %}
+
+                    <p><a href="{% url 'blog:postSearch'%}">Search again</a></p>
+                    
+                    {% else %}
+
+                    <h1>Search for posts</h1>
+                    <form method="get">
+                        {{ form.as_p }}
+                        <input type="submit" value="Search" class="btn greennature-border-button greennature-button">
+                    </form>         
+                {% endif %}   
+                </div>
+            </div> 
+        </div>
+    </div>
+    
 {% endblock content %}
     

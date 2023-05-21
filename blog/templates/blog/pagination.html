@@ -2,15 +2,15 @@
     <span class="step-links">
         
         {% if page.has_previous %}
-            <a href="?page={{ page.previous_page_number }}" class="previous">
+            <a href="?page={{ page.previous_page_number }}" class="previous page-numbers">
                 <i class="fa fa-angle-double-left"> Previous</i>
             </a>
         {% endif %}
-        <span>
+        <span aria-current='page' class='page-numbers current'>
             Page {{ page.number}} of {{ page.paginator.num_pages }}.
         </span>
         {% if page.has_next %}
-            <a href="?page={{ page.next_page_number }}" class="next">
+            <a href="?page={{ page.next_page_number }}" class="next page-numbers">
                 <i class="fa fa-angle-double-right"> Next</i>
             </a>
         {% endif %}

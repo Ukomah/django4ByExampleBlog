@@ -1,11 +1,14 @@
-<ul>
-    
-    {% for post in latestPosts  %}
-    <li>
-        <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
-    </li>
-        
-    {% endfor %}
-        
 
-</ul>
+
+<div class="recent-post-widget">
+    <div class="recent-post-widget-content">
+        {% for post in latestPosts  %}
+            <div class="recent-post-widget-title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></div>
+            <div class="recent-post-widget-info">
+                <div class="blog-info blog-date greennature-skin-info"><i class="fa fa-clock-o"></i><a href="#">{{ post.publish|date:"F j, Y" }}</a></div>
+                <div class="clear"></div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="clear"></div>
+</div>

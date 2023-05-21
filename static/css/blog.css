@@ -34,6 +34,8 @@ h2 {
     height:100%;
 }
 
+
+
 p.date { 
     color:#ccc;
     font-family: georgia, serif;
@@ -80,13 +82,30 @@ input[type=submit] {
 
 /* comments */
 .comment {
-    padding:10px;
+    padding: 5px;  /* Decreased padding */
+    border-radius: 5px;  /* Rounded corners */
+      /* Adjust this value to your desired width */
+    
 }
+.comment:nth-child(odd) {
+    background: #d8f3dc;
+}
+
 .comment:nth-child(even) {
-    background:#efefef;
+    background: #ebf9ee;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .comment .info {
     font-weight:bold;
     font-size:12px;
     color:#666;
 }
+
+.custom-image-size {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+

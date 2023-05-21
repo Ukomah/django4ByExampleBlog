@@ -1,24 +1,90 @@
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="{% url 'blog:postList' %}">NatJeoBlog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Featured Posts</a>
-            </li>
-        </ul>
 
-        <ul class="navbar-nav">
-            
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Contact</a>
-            </li>
-          
-        </ul>
-
+<header class="greennature-header-wrapper header-style-5-wrapper greennature-header-with-top-bar">
+  <!-- top navigation -->
+  <div class="top-navigation-wrapper">
+      <div class="top-navigation-container container">
+          <div class="top-navigation-left">
+              <div class="top-navigation-left-text">
+                  Phone : +234-000-000      Email : contact@estheroji.com </div>
+          </div>
+          <div class="top-navigation-right">
+              <div class="top-social-wrapper">
+                  <div class="social-icon">
+                      <a href="#" target="_blank">
+                          <i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="social-icon">
+                      <a href="#" target="_blank">
+                          <i class="fa fa-instagram"></i></a>
+                  </div>
+                  <div class="social-icon">
+                      <a href="#" target="_blank">
+                          <i class="fa fa-linkedin"></i></a>
+                  </div>
+    
+                  <div class="social-icon">
+                      <a href="#" target="_blank">
+                          <i class="fa fa-twitter"></i></a>
+                  </div>
+                  <div class="social-icon">
+                      <a href="#" target="_blank">
+                          <i class="fa fa-vimeo"></i></a>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+          </div>
+          <div class="clear"></div>
       </div>
-    </div>
-</nav>
+  </div>
+  <div id="greennature-header-substitute"></div>
+  <div class="greennature-header-inner header-inner-header-style-5">
+      <div class="greennature-header-container container">
+          <div class="greennature-header-inner-overlay"></div>
+          <!-- logo -->
+          <div class="greennature-logo">
+              <div class="greennature-logo-inner">
+                  <a href="{% url 'blog:postList' %}"> GoEnviron
+                      <img src="#" alt="" /> 
+                  </a>
+              </div>
+              <div class="greennature-responsive-navigation dl-menuwrapper" id="greennature-responsive-navigation">
+                  <button class="dl-trigger">Open Menu</button>
+                  <ul id="menu-main-menu" class="dl-menu greennature-main-mobile-menu">
+                      <li class="menu-item menu-item-home current-menu-item page_item page-item-5680 current_page_item"><a href="{% url 'blog:postList' %}" aria-current="page">Home</a></li>
+                      <li class="menu-item menu-item-has-children menu-item-15"><a href="#">Pages</a>
+                          <ul class="dl-submenu">
+                              <li class="menu-item"><a href="#">Act Now</a></li>
+                              <li class="menu-item"><a href="#">About Us 1</a></li>
+                          </ul>
+                      </li>
+                      <li class="menu-item menu-item-has-children"><a href="#">Portfolio</a></li>
+                      <li class="menu-item menu-item-has-children"><a href="#">About</a></li>
+                      
+
+                  </ul>
+              </div>
+          </div>
+
+          <!-- navigation -->
+          <div class="greennature-navigation-wrapper">
+              <nav class="greennature-navigation" id="greennature-main-navigation">
+                  <ul id="menu-main-menu-1" class="sf-menu greennature-main-menu">
+                      <li class="menu-item menu-item-home greennature-normal-menu"><a href="{% url 'blog:postList' %}"><i class="fa fa-home"></i>Home</a></li>
+                      <li class="menu-item menu-item-has-children greennature-normal-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-file-text-o"></i>Pages</a>
+                          <ul class="sub-menu">
+                              <li class="menu-item"><a href="#">Act Now</a></li>
+                              <li class="menu-item"><a href="#">About Us 1</a></li>
+                          </ul>
+                      </li>
+                      <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-mega-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-globe"></i>Portfolio</a></li>
+                      <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-normal-menu"><a href="#" class="sf-with-ul-pre">About</a></li>    
+                      
+
+              </nav>
+              <div class="greennature-navigation-gimmick" id="greennature-navigation-gimmick"></div>
+              <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+      </div>
+  </div>
+</header>
