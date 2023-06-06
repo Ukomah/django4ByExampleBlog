@@ -1,4 +1,5 @@
 
+{% load static %}
 <header class="greennature-header-wrapper header-style-5-wrapper greennature-header-with-top-bar">
   <!-- top navigation -->
   <div class="top-navigation-wrapper">
@@ -43,8 +44,8 @@
           <!-- logo -->
           <div class="greennature-logo">
               <div class="greennature-logo-inner">
-                  <a href="{% url 'blog:postList' %}"> Nature's Narative
-                      <img src="#" alt="" /> 
+                  <a href="{% url 'blog:postList' %}"> 
+                      <img src="{% static 'images/pn.png' %}" alt="" /> 
                   </a>
               </div>
               <div class="greennature-responsive-navigation dl-menuwrapper" id="greennature-responsive-navigation">
@@ -59,7 +60,7 @@
                       </li>
                       <li class="menu-item menu-item-has-children"><a href="#">Portfolio</a></li>
                       <!-- <li class="menu-item menu-item-has-children"><a href="#">About</a></li> -->
-                      <li class="menu-item menu-item-has-children"><a href="#">Log out</a></li>
+                      <li class="menu-item menu-item-has-children"><a href="#"><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Upwork</span></a></li>
                       
                       
 
@@ -79,8 +80,9 @@
                           </ul> -->
                       </li>
                       <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-mega-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-globe"></i>Portfolio</a></li>
-                      <!-- <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-normal-menu"><a href="#" class="sf-with-ul-pre">About</a></li>   -->
-                      <a class="greennature-donate-button greennature-lb-payment"><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Log out</span></a>  
+                       
+                  </ul>
+                  <a class="greennature-donate-button"><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Upwork</span></a>
                       
 
               </nav>

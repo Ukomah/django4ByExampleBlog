@@ -1,8 +1,8 @@
 html.ltie9 body, body{ min-width: 1140px; } .container{ max-width: 1140px; } .greennature-caption-wrapper .greennature-caption-inner{ max-width: 1140px; }
 .body-wrapper.greennature-boxed-style{ max-width: 1220px; overflow: hidden; } .body-wrapper.greennature-boxed-style .greennature-header-wrapper{ max-width: 1220px; margin: 0px auto; }
-.greennature-logo-inner{ max-width: 190px; }
-.greennature-logo{ margin-top: 23px; }
-.greennature-logo{ margin-bottom: 28px; }
+.greennature-logo-inner{ max-width: 320px; }
+.greennature-logo{ margin-top: 15px; }
+.greennature-logo{ margin-bottom: 1px; }
 .greennature-navigation-wrapper, .greennature-logo-right-text{ margin-top: 35px; }
 .greennature-navigation-wrapper .greennature-main-menu > li > a{ padding-bottom: 34px; }
 .top-social-wrapper .social-icon a{ color: #fcfcfc; }
