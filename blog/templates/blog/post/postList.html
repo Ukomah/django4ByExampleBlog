@@ -11,7 +11,7 @@
 <!-- Above Sidebar Section-->
 
             <div class="row">
-              <div class="col-12 col-sm-6 col-md-8 ">
+              <div class="col-12 col-sm-8 col-md-8 ">
                   <div class="with-sidebar-content twelve columns">
 
                       <section id="content-section-1">
@@ -25,7 +25,7 @@
                                             <div class="container">
                                               <div class="row">
                                                 {% for post in posts %}
-                                                    <div class="col-md-6">
+                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                                         <div id="carouselExampleIndicators{{ forloop.counter }}" class="carousel slide" data-bs-ride="carousel">
                                                             <div class="carousel-inner">
                                                                 {% if post.image %}
@@ -89,6 +89,7 @@
                                                     </div>
                                                     {% if forloop.counter|divisibleby:2 %}
                                               </div> <!-- close row -->
+
                                               <div class="row"> <!-- open new row -->
                                                     {% endif %}
                                                 {% endfor %}
@@ -111,7 +112,7 @@
                   <div class="clear"></div>
               </div>
 
-              <div class="col-12 col-sm-6 col-md-4 ">
+              <div class="col-12 col-sm-4 col-md-4 ">
                   <div class="greennature-item-start-content sidebar-right-item">
                       
                           <div class="gdl-search-form mx-3">

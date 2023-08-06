@@ -3,8 +3,7 @@ html body{ min-width: 300px; }
 #greennature-responsive-navigation{ display: none; }
 
 /*--- tablet ---*/
-@media only screen and (max-width: 1200px) {
-	body .container{ max-width: 950px; }	
+@media only screen and (max-width: 1399.98px) {
 	.greennature-button-overlay,
 	.greennature-woo-button-overlay { display: none; }
 	.greennature-donate-button { margin-left: 25px; width: auto; }
@@ -13,8 +12,8 @@ html body{ min-width: 300px; }
 	.greennature-navigation-wrapper .greennature-main-menu > li > a.sf-with-ul
 	.greennature-navigation-wrapper .greennature-main-menu > li > a { padding-right: 25px; }	
 }
-@media only screen and (max-width: 1024px) {
-	body .container{ max-width: 900px; }	
+@media only screen and (max-width: 1199.98px) {
+	body .container{ max-width: 923.98px; }
 	body .greennature-logo { float: none; margin-top: 0px; margin-bottom: 0px; padding-top: 20px; padding-bottom: 20px; } 
 	body .greennature-logo-inner { margin: 0px auto; }
 	body .greennature-navigation-wrapper{ float: none; margin-top: 10px; line-height: 0; text-align: center;  }
@@ -25,8 +24,8 @@ html body{ min-width: 300px; }
 	body .greennature-fixed-header .greennature-logo{ display: none; }
 }
 
-@media only screen and (max-width: 959px) {
-	body .container{ max-width: 760px; }	
+@media only screen and (max-width: 991.98px) {
+	body .container{ max-width: 898px; }	
 	body .body-wrapper.greennature-boxed-style { max-width: 808px; }
 
 	.greennature-hide-in-tablet{ display: none; } 
@@ -41,8 +40,8 @@ html body{ min-width: 300px; }
 }
 
 /*--- mobile landscape style ---*/
-@media only screen and (max-width: 768px) {
-	body .container{ max-width: 580px; }
+@media only screen and (max-width: 767.98px) {
+	body .container{ max-width: 520.98px; }
 	body .body-wrapper.greennature-boxed-style { max-width: 460px; }
 	body .body-wrapper{ overflow: hidden; }
 	
@@ -144,10 +143,21 @@ html body{ min-width: 300px; }
 	.greennature-payment-price-preset{ margin-bottom: 15px; }	
 }	
 
+/*--- mobile portrait style ---*/
+@media only screen and (max-width: 576px) {
+	body .container{ max-width: 420px; }
+	body .body-wrapper.greennature-boxed-style { max-width: 340px; }
+	
+	.gdlr-service-half-background-item .gdlr-half-left .half-container,
+	.gdlr-service-half-background-item .gdlr-half-right .half-container{ max-width: 300px; }
+	
+	.dl-menuwrapper .dl-menu, .dl-menuwrapper > .dl-submenu{ width: 270px; }
+}
+
 
 /*--- mobile portrait style ---*/
 @media only screen and (max-width: 419px) {
-	body .container{ max-width: 285px; }
+	body .container{ max-width: 300px; }
 	body .body-wrapper.greennature-boxed-style { max-width: 340px; }
 	
 	.gdlr-service-half-background-item .gdlr-half-left .half-container,

@@ -109,3 +109,11 @@ input[type=submit] {
     height: 300px;
 }
 
+.about-page{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-page h4{
+    text-align: center;
+}

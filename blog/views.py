@@ -13,6 +13,11 @@ from taggit.models import Tag
 
 
 # Create your views here.
+def about(request):
+    return render(request, 'blog/about.html')
+
+def portfolio(request):
+    return render(request, 'blog/portfolio.html')
 
 def postList(request, tag_slug=None):
     postList = Post.published.all()

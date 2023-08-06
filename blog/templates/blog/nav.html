@@ -52,13 +52,13 @@
                   <button class="dl-trigger">Open Menu</button>
                   <ul id="menu-main-menu" class="dl-menu greennature-main-mobile-menu">
                       <li class="menu-item menu-item-home current-menu-item page_item page-item-5680 current_page_item"><a href="{% url 'blog:postList' %}" aria-current="page">Home</a></li>
-                      <li class="menu-item menu-item-has-children menu-item-15"><a href="#">About</a>
+                      <li class="menu-item menu-item-has-children menu-item-15"><a href="{% url 'blog:about' %}">About</a>
                           <!-- <ul class="dl-submenu">
                               <li class="menu-item"><a href="#">Act Now</a></li>
                               <li class="menu-item"><a href="#">About Us 1</a></li>
                           </ul> -->
                       </li>
-                      <li class="menu-item menu-item-has-children"><a href="#">Portfolio</a></li>
+                      <li class="menu-item menu-item-has-children"><a href="{% url 'blog:portfolio' %}">Portfolio</a></li>
                       <!-- <li class="menu-item menu-item-has-children"><a href="#">About</a></li> -->
                       <li class="menu-item menu-item-has-children"><a href="#"><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Upwork</span></a></li>
                       
@@ -73,13 +73,13 @@
               <nav class="greennature-navigation" id="greennature-main-navigation">
                   <ul id="menu-main-menu-1" class="sf-menu greennature-main-menu">
                       <li class="menu-item menu-item-home greennature-normal-menu"><a href="{% url 'blog:postList' %}"><i class="fa fa-home"></i>Home</a></li>
-                      <li class="menu-item menu-item-has-children greennature-normal-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-file-text-o"></i>About</a>
+                      <li class="menu-item menu-item-has-children greennature-normal-menu"><a href="{% url 'blog:about' %}" class="sf-with-ul-pre"><i class="fa fa-file-text-o"></i>About</a>
                           <!-- <ul class="sub-menu">
                               <li class="menu-item"><a href="#">Act Now</a></li>
                               <li class="menu-item"><a href="#">About Us 1</a></li>
                           </ul> -->
                       </li>
-                      <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-mega-menu"><a href="#" class="sf-with-ul-pre"><i class="fa fa-globe"></i>Portfolio</a></li>
+                      <li class="menu-item menu-item-has-childrenmenu-item menu-item-has-children greennature-mega-menu"><a href="{% url 'blog:portfolio' %}" class="sf-with-ul-pre"><i class="fa fa-globe"></i>Portfolio</a></li>
                        
                   </ul>
                   <a class="greennature-donate-button"><span class="greennature-button-overlay"></span><span class="greennature-button-donate-text">Upwork</span></a>
